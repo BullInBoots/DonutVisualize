@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Visualizing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="scaler">
+            <h2>Circle Visualizing</h2><br>
+            <label for="innerCircleRadiusScaler">Inner Radius</label>
+            <input type="range" id="innerCircleRadiusScaler" class="circleRadiusScaler">
+            <label for="innerCircleRadiusScaler">Outer Radius</label>
+            <input type="range" id="outerCircleRadiusScaler" class="circleRadiusScaler">
+        </div>
+        <div class="circle-container">
+            <svg height="300" width="300">
+                <circle cx="150" cy="150" r="100" fill="white" id="outerCircle"></circle>
+                <circle cx="150" cy="150" r="50" fill="rgb(31, 31, 31)" id="innerCircle"></circle>
+            </svg>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>

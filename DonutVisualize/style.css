@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.app {
+    width: 800px;
+    height: 300px;
+    border: 1px solid white;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+circle {
+    transition: all 0.7s ease-out;
+}
